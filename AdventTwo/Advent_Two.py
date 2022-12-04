@@ -1,5 +1,7 @@
 score = 0
 
+print(3%1)
+
 opp = {'A':1, 'B':2, 'C':3}
 pla = {'X':0, 'Y':3, 'Z':6}
 
@@ -34,3 +36,5 @@ with open('AdventTwo/input.txt','r') as f:
         score += calculate_score(line)
 
 print(score)
+
+print("Hello World")
